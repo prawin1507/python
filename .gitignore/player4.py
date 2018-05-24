@@ -1,2 +1,3 @@
-a=input()
-print(int(a))
+a=raw_input()
+b="."
+print(a+b)
