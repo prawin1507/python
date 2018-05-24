@@ -1,3 +1,2 @@
-b=raw_input()
-b=b.lower()
-print b.title()
+str=input()
+print(str.title())
