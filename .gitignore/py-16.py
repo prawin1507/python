@@ -1,9 +1,9 @@
 a=int(input())
 b=int(input())
-for num in range(a,b):
+for x in range(a,b):
     if num>1:
-        for i in range(2,num):
-            if (num%i)==0:
+        for i in range(2,x):
+            if (x%i)==0:
                 break
         else:
-            print(num)
+            print(x)
